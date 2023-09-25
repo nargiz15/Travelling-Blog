@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f6f6f6e7;
+
+}
+
+.headerbg {
+    background-image: url(../img/pexels-tomas-anunziata-3876407\ 1.png);
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    color: white;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerbg::before {
+    color: rgb(red, green, blue);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.navbar .nav {
+    /* margin-right: 100px; */
+    /* margin-top: 20px; */
+    text-decoration: none;
+    color: #FFA500
+}
+.blueNav {
+    border: 1px solid #0336FF;
+    border-radius: 8px;
+    background-color: #0336FF;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.Travel-p {
+    position: relative;
+}
+
+.Travel-p p {
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+.tips-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+.tips-card-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 2.76726px 6.22633px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 14.96273px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 28.17349px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 50.25669px 0px rgba(0, 0, 0, 0.04), 0px 41.77761px 93.99962px 0px rgba(0, 0, 0, 0.05), 0px 100px 225px 0px rgba(0, 0, 0, 0.07);
+}
+.tips-card-item >img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+.tips-card-item span{
+    padding-left: 10px;
+}
+.tips-card-item h3{
+    background: #0336FF;
+    color: white;
+    padding: 8px;
+    font-size: 30px;
+}
+.tips-icons, .tips-icons span{
+    display: flex;
+    align-items: center;
+    
+}
+.tips-icons{
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.images-div {
+    display: flex;
+    gap: 0px;
+    margin-top: 40px;
+}
+
+.last-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.final-div {
+    display: flex;
+    margin-top: 40px;
+    padding-top: 28px;
+    justify-content: space-between;
+    position: relative;
+    gap: 20px;
+}
+
+.final-div-2 input {
+    width: 330px;
+    height: 70px;
+    right: 250px;
+    position: absolute;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #C4C4C4;
+    background-color: white;
+    border-radius: 10px;
+    border: #C4C4C4 1px solid;
+    cursor: pointer;
+
+}
+
+.final-div-2 .subscribe {
+    background-color: #0336FF;
+    color: white;
+    width: 200px;
+    height: 70px;
+    border: 1px solid #0336FF;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 40px;
+    width: 100%;
+    color: #C4C4C4;
+    ;
+}
+
+.finish {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 20px;
+}
+
+.finish p {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.68);
+    ;
+    color: #EEE
+}
+
+.all-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-conten,
+.third-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.finish-containerr {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.finito {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider {
+    display: flex;
+    animation: slideAnimation 15s linear infinite; 
+    margin-top: 40px;
+}
+
+
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+   
+    100% {
+        transform: translateX(-100%);
+    }
+}
